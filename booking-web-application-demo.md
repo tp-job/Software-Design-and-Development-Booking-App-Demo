@@ -489,7 +489,7 @@ app.listen(port, () => {
 3. สร้าง Requests สำหรับทดสอบ:
    3.1 เพิ่ม variable เพื่อใช้งานในการทดสอบ โดยเลือกที่ Environments -> Globals
    ทำการเพิ่มชื่อ Variable เป็น baseUrl และกำหนดค่า Initial value เป็น http://localhost:3001 ดังรูป
-   ![ตั้งค่า variable](./images/pastman-addvariable)
+   ![ตั้งค่า variable](./images/pastman-addvariable.png)
 
 3.2 สร้าง request เพื่อทดสอบ Login ระบุ Url คือ POST: {{baseUrl}}/api/login ดังรูป
 
@@ -500,10 +500,10 @@ app.listen(port, () => {
 }
 ```
 
-![ทดสอบ Login](./images/postman-login)
+![ทดสอบ Login](./images/postman-login.png)
 
 4. เพิ่ม variable ชื่อ token โดยคัดลอก token ที่ได้จากขั้นตอนการ Login
-   ![เพิ่ม Token](./images/postman-addtoken)
+   ![เพิ่ม Token](./images/postman-addtoken.png)
 
 5. สร้าง request เพื่อทดสอบเพิ่มข้อมูลการจอง ระบุ Url คือ POST: {{baseUrl}}/api/bookings โดยระบุข้อมูลดังนี้
 
@@ -526,7 +526,7 @@ app.listen(port, () => {
 - Headers: Authorization: Bearer {{token}}
 - กำหนด initial value กับ current value
 - กดปุ่ม Save เพื่อบันทึกข้อมูล
-  ![Get all booking](./images/postman-getall)
+  ![Get all booking](./images/postman-getall.png)
 
 ### บันทึกผลลัพธ์การ Get ข้อมูล
 
@@ -564,7 +564,7 @@ app.listen(port, () => {
 
 9.1 ปรับปรุงแก้ไขโค้ดเพื่อให้แสดงผลการลบเป็น status : "ลบข้อมูลสำเร็จโดย [ชื่อนักศึกษา]"
 ดังรูป
-![ผลการลบข้อมูล](./images/postman-deleted-with-status)
+![ผลการลบข้อมูล](./images/postman-deleted-with-status.png)
 
 ### บันทึกผลลัพธ์การ DELETE with status
 
