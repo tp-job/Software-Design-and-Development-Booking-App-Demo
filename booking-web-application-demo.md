@@ -489,7 +489,7 @@ app.listen(port, () => {
 3. สร้าง Requests สำหรับทดสอบ:
    3.1 เพิ่ม variable เพื่อใช้งานในการทดสอบ โดยเลือกที่ Environments -> Globals
    ทำการเพิ่มชื่อ Variable เป็น baseUrl และกำหนดค่า Initial value เป็น http://localhost:3001 ดังรูป
-   ![ตั้งค่า variable](images/pastman-addvariable.png)
+   ![ตั้งค่า variable](images/postman-addvariable.png)
 
 3.2 สร้าง request เพื่อทดสอบ Login ระบุ Url คือ POST: {{baseUrl}}/api/login ดังรูป
 
