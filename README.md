@@ -19,7 +19,7 @@
   - [React Hooks](booking-web-application-demo.md#react-hooks)
 - [2. Tailwind CSS](booking-web-application-demo.md#2-tailwind-css)
 
-## ขั้นตอนการทดลองสร้าง Front-end ด้วย React(booking-web-application-demo.md#
+## ขั้นตอนการทดลองสร้าง Front-end ด้วย React
 - [3.1 การตั้งค่าโปรเจค React](booking-web-application-demo.md#31-การตั้งค่าโปรเจค-react)
 - [3.2 การสร้าง Components ต่าง ๆ](booking-web-application-demo.md#32-การสร้าง-components-ต่าง-ๆ)
   - [3.2.1 App Component](booking-web-application-demo.md#321-app-component)
