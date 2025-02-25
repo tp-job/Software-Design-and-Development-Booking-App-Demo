@@ -4,9 +4,9 @@
   - [2. Node.js และ Express](booking-web-application-demo.md#2-node-js-และ-express)
 - [การเตรียมสภาพแวดล้อม](booking-web-application-demo.md#การเตรียมสภาพแวดล้อม)
 - [การพัฒนา Backend API](booking-web-application-demo.md#การทดลองที่-2-การพัฒนา-backend-api)
-  - [2.1 การติดตั้งและตั้งค่าโปรเจค Node.js](booking-web-application-demo.md#21-การติดตั้งและตั้งค่าโปรเจค-node-js)
+  - [2.1 การติดตั้งและตั้งค่าโปรเจค Node.js](booking-web-application-demo.md#21-การติดตั้งและตั้งค่าโปรเจค-nodejs)
   - [2.2 การสร้างฐานข้อมูล](booking-web-application-demo.md#22-การสร้างฐานข้อมูล)
-  - [2.3 การสร้าง API Endpoints(booking-web-application-demo.md#23-การสร้าง-api-endpoints)
+  - [2.3 การสร้าง API Endpoints](booking-web-application-demo.md#23-การสร้าง-api-endpoints)
   - [2.4 การทดสอบ API ด้วย Postman](booking-web-application-demo.md#24-การทดสอบ-api-ด้วย-postman)
 
 ## ทฤษฎีที่เกี่ยวข้องกับการพัฒนาส่วน Front-end
