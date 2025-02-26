@@ -1041,7 +1041,7 @@ npm run dev
 1.1 กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน 
 #### บันทึกผลการรัน
 
-![รูปผลการรันหน้า front-end](./image-path/image.png)
+![image](https://github.com/user-attachments/assets/8202afc4-36fd-43fc-baa7-a26fffd6c187)
 
 1.2 กด Ctrl + c เพื่อยกเลิกการทำงาน
 
@@ -1053,7 +1053,7 @@ npm install -D tailwindcss@3 postcss autoprefixer
 ```
 #### axios คืออะไร ?
 ```html
-  axios คืออะไร เขียนคำตอบที่นี่
+  Axios เป็นไลบรารี JavaScript ที่ใช้สำหรับส่ง HTTP requests ไปยังเซิร์ฟเวอร์ (API)
 ```
 3. ตั้งค่า Tailwind CSS:
 
