@@ -1155,12 +1155,20 @@ export default App;
 ```
 2) ทดสอบรัน โดยพิมพ์คำสั่ง npm run dev แล้วบันทึกหน้าผลการรัน
 #### บันทึกรูปผลการรัน
-![ผลการรัน](./image path/image.png)
+![image](https://github.com/user-attachments/assets/244148ea-74e0-4ba9-94e6-5601b626008d)
 
 3) กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน แล้วตรวจสอบ error โดยไม่ต้องหยุดการทำงานของ Application
 #### บันทึกผลการรัน
+![image](https://github.com/user-attachments/assets/34ff5b52-125b-4db7-8862-407709e2424e)
+
 ```html
-บันทึกสาเหตุที่ทำให้เกิด error ที่นี่
+F:/Coding/hotel-booking-system/frontend/src/App.jsx:3:24
+17 |  import React from "react";
+18 |  import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+19 |  import BookingForm from "./components/BookingForm.jsx";
+   |                           ^
+20 |  function App() {
+21 |    return /* @__PURE__ */ jsxDEV(Router, { children: /* @__PURE__ */ jsxDEV("div", { className: "min-h-screen bg-gray-100", c
 ```
 ### 3.2.2 BookingForm Component
 1) สร้างไฟล์ `src/components/BookingForm.jsx`:
@@ -1444,7 +1452,8 @@ export default BookingForm;
 ![หน้าจองห้องพัก](images/front-booking.png)
 3) ทดสอบป้อนข้อมูลการจอง โดยระบุชื่อผู้จองเป็นชื่อนักศึกษา และบันทึกผลการทดลองที่มีหน้าสรุปการจอง
 #### บันทึกผลการทดลอง
-![รูปหน้าจองห้องพัก ที่แสดงข้อมูลสรุปการจอง](images-path/image.png)
+![image](https://github.com/user-attachments/assets/fea4c2f3-74d2-410b-897e-7ef578061c1b)
+![image](https://github.com/user-attachments/assets/66c3a89c-c598-4cdc-add8-a1a41344d7c7)
 
 4) ใช้ Postman  ตรวจสอบว่ามีข้อมูลการจองเพิ่มไปหรือไม่ (หาก token หมดอายุ ต้องทำการ Login แล้วเปลี่ยนค่า token ใหม่)
 
